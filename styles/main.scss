@@ -11,11 +11,12 @@
         }
     }
     main{
-        grid-template-columns: 100%;
+        grid-template-columns: 98%;
+        align-items: center;
     }
     .section{
         &__input{
-            width: 95%;
+            width: 98%;
             margin-left: 10px;
             margin-right: 10px;
             justify-content: center;
@@ -23,9 +24,18 @@
         }
     }
 
+    .sectionr{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+
     .num{
         display: flex;
         gap: 10px;
         justify-content:center;
+    }
+    .footer{
+        width: 105%;
     }
 }
