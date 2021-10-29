@@ -259,8 +259,8 @@ main {
 
 .footer {
   margin-top: 10px;
-  width: 100%;
   background-color: #53a6fa;
+  width: 100%;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
