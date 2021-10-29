@@ -3,12 +3,10 @@
 
 //RESPONSIVE
 @media  (min-width:200px)and(max-width:550px) {
-    html{
-        zoom: 85%;
-    }
     .header{
         padding-left: 10px;
         padding-right: 10px;
+        width: 98%;
         &__search{
             width: 95%;
         }
@@ -20,8 +18,8 @@
     .section{
         &__input{
             width: 98%;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 5px;
+            margin-right: 10px; 
             justify-content: center;
             align-items: center;
         }
@@ -29,7 +27,7 @@
 
     .sectionr{
         width: 100%;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-right: 10px; 
     }
 
@@ -37,8 +35,5 @@
         display: flex;
         gap: 10px;
         justify-content:center;
-    }
-    .footer{
-        width: 100%;
     }
 }
