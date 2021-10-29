@@ -3,6 +3,9 @@
 
 //RESPONSIVE
 @media  (min-width:200px)and(max-width:550px) {
+    html{
+        zoom: 90%;
+    }
     .header{
         padding-left: 10px;
         padding-right: 10px;
@@ -36,6 +39,6 @@
         justify-content:center;
     }
     .footer{
-        width: 105%;
+        width: 100%;
     }
 }
