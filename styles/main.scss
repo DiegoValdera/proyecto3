@@ -1,0 +1,31 @@
+@import "./header";
+@import "./body";
+
+//RESPONSIVE
+@media  (min-width:200px)and(max-width:550px) {
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__search{
+            width: 95%;
+        }
+    }
+    main{
+        grid-template-columns: 100%;
+    }
+    .section{
+        &__input{
+            width: 95%;
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .num{
+        display: flex;
+        gap: 10px;
+        justify-content:center;
+    }
+}
